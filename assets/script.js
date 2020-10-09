@@ -72,20 +72,13 @@ function generatePassword(){
   for(let i = 0; i < length; i++){
     var possibleChar = getRandom(possibleCharacters);
     result.push(possibleChar);
-    console.log(result)
   }
 
   //loop over your guaranteed array to ensure the user will get the characters criteria chosen
-  for(let i=0; i< getRandom.length; i++) {
-    var 
+  for (var i = 0; i < guaranteedCharacters.length; i++) {
+    result[i] = guaranteedCharacters[i];
   }
-  
-  
-  for (var i = 0; i < questions.length; i++) {
-    // Display current question to user and ask OK/Cancel
-    var answer = confirm(questions[i].q);
-
-  return result.join('');
+   return result.join('');
 }
 
 // Write password to the #password input
