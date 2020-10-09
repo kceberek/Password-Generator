@@ -94,3 +94,5 @@ You are required to submit the following for review:
 - - -
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
 
+Deployed page: 
+https://kceberek.github.io/Password-Generator/
